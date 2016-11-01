@@ -1,0 +1,11 @@
+index.js	            => Entry point for your application. Everything in your app gets triggered through this file.
+app/	                => Contains the routes, models, auth, helpers and mailers for your applications. Bulk of the code lives here
+config/	                => This folder contains additional configuration files
+config/environments/	=> This folder contains environment specific config files such as production.js and development.js
+config/initializers	    => Initialize all your moving pieces in this folder, such as database.js, redis.js, and server.js
+package.json	        => This is the file that describes your repo and track your dependencies along with scripts that you can run through npm. Details can be found here
+lib/	                => Additional libraries that are utilitarian or helper methods. Like logger.js
+.env	                => .env file at the root of the project is used as a shortcut way to load environments
+node_modules/	        => Extended modules for your application. (Shouldn't be checked into the repo and must let npm manage it through 'npm install'
+public/	                => The only folder seen by the world as-is. Contains static files and compiled assets.
+test/	                => Unit tests, fixtures, and other test apparatus.

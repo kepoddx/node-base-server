@@ -1,0 +1,26 @@
+// app/routes/loads.js
+
+module.exports = function(router) {
+  'use strict';
+  // This will handle the url calls for /loads/:load_id
+  router.route('/:loadId')
+  .get(function(req, res, next) {
+    // Return load
+  }) 
+  .put(function(req, res, next) {
+    // Update load
+  })
+  .patch(function(req, res,next) {
+    // Patch
+  })
+  .delete(function(req, res, next) {
+    // Delete record
+  });
+
+  router.route('/')
+  .get(function(req, res, next) {
+    // Logic for GET /loads routes
+  }).post(function(req, res, next) {
+    // Create new load
+  });
+};
